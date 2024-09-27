@@ -4,54 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Background Image and Side Images</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lan Skærm</title>
 </head>
 
 <body>
-    <img class="background-image" src="./Billeder/Gamebaggrund.png"></img>
+    <img class="background-image" src="./assets/images/Gamebaggrund.png"></img>
     <!-- Why the fuck do we have this?
     <audio id="startMusic" src="C:\Users\45201\Desktop\LAN Tunerings bilider\Billieder\StartMusic.mp3"
         preload="auto"></audio>
     -->
-
-    <div class="side-images">
-        <div class="main-tournament-image">
-            <img id="main-tournament-image" alt="Tuneringsbillede 1" class="side-image first-image">
+        <div class="main-tournament">
+            <img id="main-tournament-image" alt="Tuneringsbillede 1" class="side-image">
 
             <div id="gameText1" class="gameText firstgameText"></div>
-            <div id="countdown1" class="countdown firstcountdown"></div>
+            <div id="countdown1" class="main-countdown"></div>
         </div>
 
-        <div class="side-tournament-image">
-            <img id="side-tournament-image" alt="Tuneringsbillede 2" class="side-image second-image">
-
-            <div id="gameText2" class="gameText"></div>
-            <div id="countdown2" class="countdown"></div>
-        </div>
-
-        <div class="side-tournament-image2">
-            <img id="side-tournament-image2" alt="Tuneringsbillede 3" class="side-image third-image">
-            <div id="gameText3" class="gameText"></div>
-            <div id="countdown3" class="countdown"></div>
-        </div>
-
-        <div id="bod-container">
-            <div id="bod-countdown" class="bod-countdown"></div>
-        </div>
-
-        <div id="Minecraft-container">
-            <div id="Minecraftinfo" class="Minecraftinfo"><b>Minecraft Build Battle</b> <br><br>
-                <b>Tema:</b> Mytologi <br> <!-- Lav det her til en variabel som et module -->
-                <b>ip:</b> nylan.my.pebble.host <br>
-                <b>Slutter om:</b>
+        <div class="side-tournament">
+            <div class="tournament-list-item">
+                <img id="side-tournament-image" alt="Tuneringsbillede 2" class="side-image-alt">
+                <div id="gameText2" class="gameText"></div>
+                <div id="countdown2" class="side-countdown"></div>
             </div>
-            <div id="mc-countdown" class="mc-countdown"></div>
+            <div class="tournament-list-item">
+                <img id="side-tournament-image2" alt="Tuneringsbillede 3" class="side-image-alt">
+                <div id="gameText3" class="gameText"></div>
+                <div id="countdown3" class="side-countdown"></div>
+            </div>
         </div>
-    </div>
+        <div class="bod-details">
+            <p class="bod-opener-text">Boden åbner om</p>
+            <p id="bod-countdown" class="bod-countdown">00:00</p>
+        </div>
+        
 
+        <div class="minecraft-event">
+            <h2 class="minecraft-event-title">Minecraft Build Battle</h1>
+            <div class="minecraft-event-details">
+                <p class="minecraft-event-detail">
+                    <strong>Tema:</strong>
+                    <span class="minecraft-event-theme">Mytologi</span>
+                </p>
+                <p class="minecraft-event-detail">
+                    <strong>IP:</strong>
+                    <span class="minecraft-event-ip">nylan.my.pebble.host</span>
+                </p>                
+                <p class="minecraft-event-detail">
+                    <strong>Slutter om:</strong>
+                    <span id="mc-countdown" class="minecraft-event-countdown"></span>
+                </p>
+            </div>
+        </div>
 
-    <script src="script.js" type="module"></script>
+    <script src="./scripts/script.js" type="module"></script>
 
 </body>
 
