@@ -1,9 +1,29 @@
+/* Font */
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Base styles for body */
 body {
   margin: 0;
   padding: 0;
   height: calc(100vh - 1rem);
   overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Image container with responsive text */
@@ -19,6 +39,7 @@ body {
 .side-image-alt {
   width: 13vw;
 }
+
 /* Responsive background image */
 .background-image {
   position: fixed;
@@ -38,6 +59,7 @@ body {
 
 .gameText {
   font-size: 1.5vw;
+  margin: 10px;
 }
 
 .firstgameText {
@@ -59,12 +81,14 @@ body {
   font-size: 2vw;
   color: #245ca8;
   text-align: center;
+  margin-top: 10px;
 }
 
 .main-countdown {
   font-size: 3vw;
   color: #b10000;
   text-align: center;
+  margin-top: 10px;
 }
 
 /* Tournaments */
