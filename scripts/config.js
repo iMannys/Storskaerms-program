@@ -10,6 +10,8 @@
 
 */
 
+const buildBattleEndDate = "September 29, 2024 11:00";
+
 const tournamentStartDelayMinutes = 1; // Hvor mange minutter "Starter NU!" skal stå når turneringen når 0 i countdownen
 
 const tournaments = [
@@ -110,4 +112,4 @@ const tournaments = [
   },
 ];
 
-export { tournaments, tournamentStartDelayMinutes };
+export { tournaments, tournamentStartDelayMinutes, buildBattleEndDate };
