@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -98,7 +98,7 @@ p {
   align-items: center;
   flex-direction: column;
   position: absolute;
-  left: 9.6vw;
+  left: 8.6vw;
   top: 18vh;
 }
 .side-tournament {
@@ -106,7 +106,7 @@ p {
   align-items: center;
   position: absolute;
   justify-content: space-between;
-  left: 52.3vw;
+  left: 51.3vw;
   top: 22vh;
   gap: 3vw;
 }
