@@ -18,97 +18,97 @@ const tournaments = [
   {
     name: "Minecraft Build Battle",
     imagePath: "./assets/images/Minecraft.png",
-    date: "September 27, 2024 18:00",
+    date: "January 17, 2025 18:00",
   },
   {
     name: "Sten, Saks og Papir",
     imagePath: "./assets/images/StenSaksPapir.png",
-    date: "September 27, 2024 18:15",
+    date: "January 17, 2025 18:15",
   },
   {
     name: "Overwatch 2 - 3v3",
     imagePath: "./assets/images/Overwatch.png",
-    date: "September 27, 2024 19:30",
+    date: "January 17, 2025 19:30",
   },
   {
     name: "Rainbow Six Siege - 5v5",
     imagePath: "./assets/images/RainbowSixSiege.png",
-    date: "September 27, 2024 20:00",
+    date: "January 17, 2025 20:00",
   },
   {
     name: "Lethal Company",
     imagePath: "./assets/images/LethalCompany.png",
-    date: "September 27, 2024 22:00",
+    date: "January 17, 2025 22:00",
   },
   {
     name: "UNO",
     imagePath: "./assets/images/UNO.png",
-    date: "September 28, 2024 11:00",
+    date: "January 17, 2025 11:00",
   },
   {
     name: "Rocket League - 2v2",
     imagePath: "./assets/images/RocketLeague.png",
-    date: "September 28, 2024 12:00",
+    date: "January 17, 2025 12:00",
   },
   {
     name: "TFT",
     imagePath: "./assets/images/TFT.png",
-    date: "September 28, 2024 13:00",
+    date: "January 17, 2025 13:00",
   },
   {
     name: "League of Legends - 2v2",
     imagePath: "./assets/images/LeagueOfLegends.png",
-    date: "September 28, 2024 14:00",
+    date: "January 17, 2025 14:00",
   },
   {
     name: "Smash Bros [Ingen præmie]",
     imagePath: "./assets/images/SmashBros.png",
-    date: "September 28, 2024 14:45",
+    date: "January 17, 2025 14:45",
   },
   {
     name: "Geoguessr",
     imagePath: "./assets/images/Geoguessr.png",
-    date: "September 28, 2024 15:00",
+    date: "January 18, 2025 15:00",
   },
   {
     name: "Counter Strike 2 - 5v5",
     imagePath: "./assets/images/CSGO.png",
-    date: "September 28, 2024 16:30",
+    date: "January 18, 2025 16:30",
   },
   {
     name: "Werewolf [Ingen præmie]",
     imagePath: "./assets/images/Geoguessr.png", // Mangler billede
-    date: "September 28, 2024 17:30",
+    date: "January 18, 2025 17:30",
   },
   {
     name: "Magic: The Gathering [Ingen præmie]",
     imagePath: "./assets/images/Magic.png",
-    date: "September 28, 2024 20:00",
+    date: "January 18, 2025 20:00",
   },
   {
     name: "League of Legends - 5v5",
     imagePath: "./assets/images/LeagueOfLegends.png",
-    date: "September 28, 2024 20:00",
+    date: "January 18, 2025 20:00",
   },
   {
     name: "Overwatch 2 - 5v5",
     imagePath: "./assets/images/Overwatch.png",
-    date: "September 28, 2024 22:00",
+    date: "January 18, 2025 22:00",
   },
   {
     name: "Mario Kart",
     imagePath: "./assets/images/MarioKart.png",
-    date: "September 28, 2024 23:00",
+    date: "January 18, 2025 23:00",
   },
   {
     name: "Valorant - 2v2",
     imagePath: "./assets/images/Valorant.png",
-    date: "September 29, 2024 11:00",
+    date: "January 19, 2025 11:00",
   },
   {
     name: "Minecraft Build Battle Slut",
     imagePath: "./assets/images/Minecraft.png",
-    date: "September 29, 2024 11:00",
+    date: "January 19, 2025 11:00",
   },
 ];
 
